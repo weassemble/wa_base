@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the We Assemble Base feature.
+ */
+
+include_once('wa_base.features.inc');
