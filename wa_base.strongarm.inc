@@ -15,25 +15,25 @@ function wa_base_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_files';
   $strongarm->value = array(
-    0 => 'public://color/pixture_reloaded-7984d9ec/bullet-round.png',
-    1 => 'public://color/pixture_reloaded-7984d9ec/bullet-sm-arrow-right.png',
-    2 => 'public://color/pixture_reloaded-7984d9ec/bullet-sm-arrow-down.png',
-    3 => 'public://color/pixture_reloaded-7984d9ec/button.gif',
-    4 => 'public://color/pixture_reloaded-7984d9ec/button-o.gif',
-    5 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/header.png',
-    6 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/header-tile.png',
-    7 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/menu-tile.png',
-    8 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-footer.png',
-    9 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-footer-tile.png',
-    10 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-menu.png',
-    11 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-title.png',
-    12 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-wall.png',
-    13 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-bar-lite.png',
-    14 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-bar.png',
-    15 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-lbar-lite.png',
-    16 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/bg-lbar.png',
-    17 => '/Users/dtarc/development/workspace/weassemble/sites/default/files/color/pixture_reloaded-7984d9ec/sf-hover-tile.png',
-    18 => 'public://color/pixture_reloaded-7984d9ec/colors.css',
+    0 => 'public://color/pixture_reloaded-124db8bd/bullet-round.png',
+    1 => 'public://color/pixture_reloaded-124db8bd/bullet-sm-arrow-right.png',
+    2 => 'public://color/pixture_reloaded-124db8bd/bullet-sm-arrow-down.png',
+    3 => 'public://color/pixture_reloaded-124db8bd/button.gif',
+    4 => 'public://color/pixture_reloaded-124db8bd/button-o.gif',
+    5 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/header.png',
+    6 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/header-tile.png',
+    7 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/menu-tile.png',
+    8 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-footer.png',
+    9 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-footer-tile.png',
+    10 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-menu.png',
+    11 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-title.png',
+    12 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-wall.png',
+    13 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-bar-lite.png',
+    14 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-bar.png',
+    15 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-lbar-lite.png',
+    16 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-lbar.png',
+    17 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/sf-hover-tile.png',
+    18 => 'public://color/pixture_reloaded-124db8bd/colors.css',
   );
   $export['color_pixture_reloaded_files'] = $strongarm;
 
@@ -41,7 +41,7 @@ function wa_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_logo';
-  $strongarm->value = 'public://color/pixture_reloaded-7984d9ec/logo.png';
+  $strongarm->value = 'public://color/pixture_reloaded-124db8bd/logo.png';
   $export['color_pixture_reloaded_logo'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -74,7 +74,7 @@ function wa_base_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_stylesheets';
   $strongarm->value = array(
-    0 => 'public://color/pixture_reloaded-7984d9ec/colors.css',
+    0 => 'public://color/pixture_reloaded-124db8bd/colors.css',
   );
   $export['color_pixture_reloaded_stylesheets'] = $strongarm;
 

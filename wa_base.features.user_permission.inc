@@ -507,15 +507,6 @@ function wa_base_user_default_permissions() {
     'module' => 'devel',
   );
 
-  // Exported permission: use admin toolbar
-  $permissions['use admin toolbar'] = array(
-    'name' => 'use admin toolbar',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'admin',
-  );
-
   // Exported permission: use advanced search
   $permissions['use advanced search'] = array(
     'name' => 'use advanced search',

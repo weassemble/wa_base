@@ -5,29 +5,3 @@
  */
 
 include_once('wa_base.features.inc');
-
-/**
- * Implements hook_menu().
- */
-function wa_base_menu() {
-  $items = array();
-
-  $items['wa_base'] = array(
-    'title' => 'We Assemble Home',
-    'description' => 'We Assemble Home Dashboard Page.',
-    'page callback' => 'wa_base_page_callback',
-    'access arguments' => array('access content'),
-    'type' => MENU_CALLBACK,
-  );
-
-  return $items;
-}
-
-
-/**
- * Menu callback for IEG TUS Dashboard page.
- */
-function wa_base_page_callback() {
-  return '';
-}
-
