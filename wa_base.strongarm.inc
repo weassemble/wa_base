@@ -15,25 +15,25 @@ function wa_base_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_files';
   $strongarm->value = array(
-    0 => 'public://color/pixture_reloaded-124db8bd/bullet-round.png',
-    1 => 'public://color/pixture_reloaded-124db8bd/bullet-sm-arrow-right.png',
-    2 => 'public://color/pixture_reloaded-124db8bd/bullet-sm-arrow-down.png',
-    3 => 'public://color/pixture_reloaded-124db8bd/button.gif',
-    4 => 'public://color/pixture_reloaded-124db8bd/button-o.gif',
-    5 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/header.png',
-    6 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/header-tile.png',
-    7 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/menu-tile.png',
-    8 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-footer.png',
-    9 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-footer-tile.png',
-    10 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-menu.png',
-    11 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-title.png',
-    12 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-wall.png',
-    13 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-bar-lite.png',
-    14 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-bar.png',
-    15 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-lbar-lite.png',
-    16 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/bg-lbar.png',
-    17 => '/var/www/domains/weassemble.ca/docroot/sites/default/files/color/pixture_reloaded-124db8bd/sf-hover-tile.png',
-    18 => 'public://color/pixture_reloaded-124db8bd/colors.css',
+    0 => 'public://color/pixture_reloaded-c922b831/bullet-round.png',
+    1 => 'public://color/pixture_reloaded-c922b831/bullet-sm-arrow-right.png',
+    2 => 'public://color/pixture_reloaded-c922b831/bullet-sm-arrow-down.png',
+    3 => 'public://color/pixture_reloaded-c922b831/button.gif',
+    4 => 'public://color/pixture_reloaded-c922b831/button-o.gif',
+    5 => 'public://color/pixture_reloaded-c922b831/header.png',
+    6 => 'public://color/pixture_reloaded-c922b831/header-tile.png',
+    7 => 'public://color/pixture_reloaded-c922b831/menu-tile.png',
+    8 => 'public://color/pixture_reloaded-c922b831/bg-footer.png',
+    9 => 'public://color/pixture_reloaded-c922b831/bg-footer-tile.png',
+    10 => 'public://color/pixture_reloaded-c922b831/bg-menu.png',
+    11 => 'public://color/pixture_reloaded-c922b831/bg-title.png',
+    12 => 'public://color/pixture_reloaded-c922b831/bg-wall.png',
+    13 => 'public://color/pixture_reloaded-c922b831/bg-bar-lite.png',
+    14 => 'public://color/pixture_reloaded-c922b831/bg-bar.png',
+    15 => 'public://color/pixture_reloaded-c922b831/bg-lbar-lite.png',
+    16 => 'public://color/pixture_reloaded-c922b831/bg-lbar.png',
+    17 => 'public://color/pixture_reloaded-c922b831/sf-hover-tile.png',
+    18 => 'public://color/pixture_reloaded-c922b831/colors.css',
   );
   $export['color_pixture_reloaded_files'] = $strongarm;
 
@@ -41,7 +41,7 @@ function wa_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_logo';
-  $strongarm->value = 'public://color/pixture_reloaded-124db8bd/logo.png';
+  $strongarm->value = 'public://color/pixture_reloaded-c922b831/logo.png';
   $export['color_pixture_reloaded_logo'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -55,7 +55,7 @@ function wa_base_strongarm() {
     'slogan' => '#fefefe',
     'header' => '#fdfdfd',
     'mmenu' => '#fffffe',
-    'link' => '#9917eb',
+    'link' => '#693c88',
     'top' => '#b80012',
     'bottom' => '#ff6b82',
     'ftop' => '#181818',
@@ -63,7 +63,7 @@ function wa_base_strongarm() {
     'text' => '#555555',
     'blockh' => '#de2d3d',
     'blockht' => '#fffffc',
-    'blockbg' => '#f1cbf9',
+    'blockbg' => '#fbe171',
     'borders' => '#e9e9e9',
     'sticky' => '#f7f7f7',
   );
@@ -74,7 +74,7 @@ function wa_base_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_stylesheets';
   $strongarm->value = array(
-    0 => 'public://color/pixture_reloaded-124db8bd/colors.css',
+    0 => 'public://color/pixture_reloaded-c922b831/colors.css',
   );
   $export['color_pixture_reloaded_stylesheets'] = $strongarm;
 
@@ -213,7 +213,7 @@ function wa_base_strongarm() {
       'slogan' => '#fefefe',
       'header' => '#fdfdfd',
       'mmenu' => '#fffffe',
-      'link' => '#9917eb',
+      'link' => '#693c88',
       'top' => '#b80012',
       'bottom' => '#ff6b82',
       'ftop' => '#181818',
@@ -221,7 +221,7 @@ function wa_base_strongarm() {
       'text' => '#555555',
       'blockh' => '#de2d3d',
       'blockht' => '#fffffc',
-      'blockbg' => '#f1cbf9',
+      'blockbg' => '#fbe171',
       'borders' => '#e9e9e9',
       'sticky' => '#f7f7f7',
     ),
